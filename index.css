@@ -35,13 +35,11 @@
 .red-button{
     display: block;
     color: white;
-    width: 150px;
     margin: 70px auto;
     background: red;
     border: none;
-    height: 30px;
-    text-transform: uppercase; 
-    
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 .logo{
@@ -80,4 +78,34 @@ background-color: white;
 }
 .features{
     margin-top: 3%;
+}
+
+.feature h2, .feature p{
+    text-align: center;
+    padding: 5px;
+}
+.nav-bar{
+ padding: 20px;
+}
+
+.images{
+    margin-top: 3%;
+}
+.image{
+    width: 25%;
+    float: left;
+}
+.images::after{
+    clear: both;
+    content: "";
+    display: inline-block;
+}
+.download-now{
+    text-align: center;
+    margin-top: 5%;
+    word-spacing: 1px;
+}
+
+.download-now button{
+    text-transform: uppercase;
 }
